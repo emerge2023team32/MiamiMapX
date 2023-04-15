@@ -1,0 +1,46 @@
+{
+    "name": "SamplesScripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4aa734a563557450591d3fe58a62a120",
+        "GUID:d233edb6b891ca54f802dc57043ba374",
+        "GUID:1fc69d160eafe774ab0a8e5191500311",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:f2d67d65fc4899a4089f85ebb7f8c2ff",
+        "GUID:ba171b3dd2a51234ab864770f99741a5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "CloudRendering",
+        "GameCoreScarlett",
+        "GameCoreXboxOne",
+        "LinuxStandalone64",
+        "PS4",
+        "PS5",
+        "Stadia",
+        "Switch",
+        "tvOS",
+        "WebGL",
+        "XboxOne"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "VUFORIA_ENABLED"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.ptc.vuforia.engine",
+            "expression": "1.0.0",
+            "define": "VUFORIA_ENABLED"
+        },
+        {
+            "name": "com.magicleap.unitysdk",
+            "expression": "0.0.0",
+            "define": "ML_ASSETS_IMPORTED"
+        }
+    ],
+    "noEngineReferences": false
+}
